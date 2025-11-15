@@ -1,0 +1,311 @@
+@font-face {
+    font-family:" vazir";
+    src: url("../fonts/Vazir.eot");
+    src: url("../fonts/Vazir.eot?#iefix") format("embedded"),
+    url("../fonts/Vazir.woff2") format("woff2"),
+    url("../fonts/Vazir.woff") format("woff"),
+    url("../fonts/Vazir.ttf") format("truetype")
+    ;
+}
+
+body{
+    font-family:"vazir" !important;
+}
+
+a{
+    text-decoration: none;
+}
+
+.h1, 
+.h2, 
+.h3, 
+.h4, 
+.h5, 
+.h6, 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 
+p{
+line-height: 2 !important;
+}
+
+/* Utiliies */
+.hover{
+   transition: all 0.5s; 
+}
+
+.hover:hover{
+    transform:scale(1.1) ;
+}
+/* Header */
+
+.header-scrolled{
+ transition: all 0.5s 
+}
+
+.header-scrolled{
+background-color: rgb(250, 249, 249);
+box-shadow: 0px 2px 20px rgba(255, 254, 253, 0.616);
+}
+
+@media (max-width : 992px){
+    .header{
+        background-color:#fff;
+        padding: 0px 20px;
+    }
+}
+
+/* Intro */
+
+.Intro{
+height: 100vh;
+width: 100%;
+background: url(../porject-bootstrap.1/intro-bg.png) top center no-repeat;
+background-size: cover;
+
+}
+
+/* About */
+
+.contant{
+    background-color: rgba(206, 199, 199, 0.192);
+    padding:30px;
+}
+
+
+/* counts */
+.counts i{
+font-size: 42px;
+}
+
+.color{
+    color:#4154f1;
+}
+
+.color-1{
+    color:rgb(255, 0, 0);
+}
+
+.color-2{
+    color:purple;
+}
+
+.color-3{
+    color:rgb(230, 86, 153);
+}
+
+/* Features */
+
+.Features i{
+    font-size: 41px;
+    color: #4154f1;
+}
+
+/* services */
+.services-box .services-box-1{
+box-shadow: 0px 0px 30px rgba(1, 41, 112, 0.08);
+padding: 60px 30px;
+text-align: center;
+border-radius: 5px;
+transition: all .3s;
+}
+
+.services-box .services-box-1 i{
+    font-size: 36px;
+    line-height: 0;
+}
+
+.services-box .services-box-1 .read-more{
+    font-size: 20px;
+    color:  #2db6fa;
+}
+
+.services-box .services-box-1 .a-1{
+    text-decoration: none;
+    line-height: 0;
+    color: #2db6fa;
+}
+.blue{
+ border-bottom: 3px solid #2db6fa;
+}
+
+.blue .icon{
+   color:  #2db6fa;
+   background-color: #a6defaa6; 
+   padding: 18px;
+   line-height: 0;
+   display: inline-block;
+   border-radius: 4px;
+}
+
+.blue:hover{
+    background-color: #2db6fa;
+    color: #fff;
+}
+
+.services-box:hover .read-more{
+    color: #fff;
+}
+
+.services-box  .services-box-1:hover .icon{
+background-color: #fff;
+}
+
+
+
+.services-boxs .services-box-2{
+    box-shadow: 0px 0px 30px rgba(1, 41, 112, 0.08);
+    padding: 60px 30px;
+    text-align: center;
+    border-radius: 5px;
+    transition: all .3s;
+    }
+    
+    .services-boxs .services-box-2 i{
+        font-size: 36px;
+        line-height: 0;
+    }
+    
+    .services-boxs .services-box-2 .read-more-1{
+        font-size: 20px;
+        color:  #fa782d;
+    }
+    
+    .services-boxs .services-box-2 .a-2{
+        text-decoration: none;
+        line-height: 0;
+        color: #fa672d;
+    }
+    .orang{
+     border-bottom: 3px solid #fa782d;
+    }
+    
+    .orang .icon-1{
+       color:  #eb5f0e;
+       background-color: #ff8640a6; 
+       padding: 18px;
+       line-height: 0;
+       display: inline-block;
+       border-radius: 4px;
+    }
+    
+    .orang:hover{
+        background-color: #fa782d;
+        color: #fff;
+    }
+    
+    .services-boxs:hover .read-more-1{
+        color: #fff;
+    }
+    
+    .services-boxs  .services-box-2:hover .icon-1{
+    background-color: #fff;
+    }
+
+
+
+    .services-boxsz .services-box-3{
+        box-shadow: 0px 0px 30px rgba(1, 41, 112, 0.08);
+        padding: 60px 30px;
+        text-align: center;
+        border-radius: 5px;
+        transition: all .3s;
+        }
+        
+        .services-boxsz .services-box-3 i{
+            font-size: 36px;
+            line-height: 0;
+        }
+        
+        .services-boxsz .services-box-3 .read-more-2{
+            font-size: 20px;
+            color:  #fa2d9e;
+        }
+        
+        .services-boxsz .services-box-3 .a-3{
+            text-decoration: none;
+            line-height: 0;
+            color:  #fa2d9e;
+        }
+        .pink{
+         border-bottom: 3px solid #fa2d7c;
+        }
+        
+        .pink .icon-2{
+            color:  #fa2d9e;
+           background-color:  #e4399791; 
+           padding: 18px;
+           line-height: 0;
+           display: inline-block;
+           border-radius: 4px;
+        }
+        
+        .pink:hover{
+            background-color:  #ff46a2;
+            color: #fff;
+        }
+        
+        .services-boxsz:hover .read-more-2{
+            color: #fff;
+        }
+        
+        .services-boxsz .services-box-3:hover .icon-2{
+        background-color:  rgb(255, 253, 253);
+        }
+
+        /* Pricing  */
+        .Pricing .card{
+            transition: all 0.3s;
+        }
+
+        .Pricing .card:hover{
+         transform: scale(1.1);
+        }
+
+        /* Contact */
+
+        .Contact .info-box{
+        background-color: rgba(206, 199, 199, 0.192);
+        padding: 30px;
+        }
+
+
+        .Contact .info-box i{
+           font-size: 38px;
+           line-height: 0;
+           color: rgba(19, 18, 18, 0.575);
+                    }
+
+        .Contact .info-box .cellphone{
+             direction: ltr;
+             text-align: right;
+        }
+
+        .Contact .Contact-form{
+            background-color: rgba(206, 199, 199, 0.192);
+            padding: 30px;
+            height: 95%;
+        }
+
+        /* footer */
+        .footer .social-link i{
+         font-size: 20px;
+         color: rgba(19, 18, 18, 0.575);
+        }
+
+        .footer hr{
+            width: 60%;
+            height: 5px;
+            color:#000000;
+        }
+
+        .footer .footer-link a{
+            color: black;
+        }
+
+        .footer .footer-link i{
+            font-size: 16px;
+        }
